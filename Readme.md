@@ -9,7 +9,7 @@ cd ./app [go in app dir]  <br />
 pip install -r requirements.txt
 
 # Run database migrations
-cd .. [run the below commad from root directory for migrations]
+cd .. [run the below commad from root directory for migrations]  <br />
 alembic upgrade head
 
 # Use this command to run the project make sure that you are inside the root directory
