@@ -1,11 +1,11 @@
 # Clone this repo
 
 # Create and Activate the virtual enviroment (commands are for windows)
-virtualenv .venv
+virtualenv .venv  <br />
 .venv/Scripts/activate
 
 # Install requirement.txt
-cd ./app [go in app dir]
+cd ./app [go in app dir]  <br />
 pip install -r requirements.txt
 
 # Run database migrations
@@ -18,7 +18,7 @@ uvicorn app.main:app --reload
 # Check if localhost works fine on your browers
 http://localhost:8000/
 
-# NOTE: This project mainly focuses on setup and folder structure with coding practices. You can make it more modular by subdividing the files into folders. For example, schemas.py can be a folder containing user_schemas.py, post_schemas.py, etc., as the project grows larger.
+# NOTE: This project mainly focuses on setup and fast api project architecture. You can make it more modular such as subdividing the files into folders. For example, schemas.py can be a folder containing user_schemas.py, post_schemas.py, etc., as the project grows larger.
 
 
 # Content
